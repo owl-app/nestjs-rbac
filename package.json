@@ -1,0 +1,15 @@
+{
+  "name": "rbac-nestjs",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "@nx/js": "17.3.0",
+    "nx": "17.3.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
