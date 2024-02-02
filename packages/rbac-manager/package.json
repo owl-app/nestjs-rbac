@@ -1,0 +1,26 @@
+{
+  "name": "@owl-app/rbac-manager",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "20.0.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": " ^10.0.0"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist"
+  },
+  "nx": {
+    "targets": {
+      "build": {
+        "outputs": [
+          "{projectRoot}/build"
+        ]
+      }
+    }
+  }
+}
